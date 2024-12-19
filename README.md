@@ -1,3 +1,3 @@
 # apricot
 
-low intel.
+bored.
