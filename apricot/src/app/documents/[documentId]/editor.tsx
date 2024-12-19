@@ -9,6 +9,7 @@ import TableCell from '@tiptap/extension-table-cell'
 import TableHeader from '@tiptap/extension-table-header'
 import TableRow from '@tiptap/extension-table-row'
 import Image from '@tiptap/extension-image'
+import ImageResize from 'tiptap-extension-resize-image'
 
 
 export const Editor = () => {
@@ -22,6 +23,7 @@ export const Editor = () => {
         },
         extensions: [StarterKit,
             Image,
+            ImageResize,
             Table, 
             TableCell,
             TableHeader,
